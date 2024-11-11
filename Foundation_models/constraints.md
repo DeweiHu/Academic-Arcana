@@ -12,5 +12,6 @@ The following constraints can be considered solid by using only the waveforms.
 
 * `Masked leads`: Intuitively, we can assume that the encoded latent vector represents the moving pattern of a specific heart. The 12-lead signals are observations from different angles. However, such latent representation should be consistent even though some observations are missed. Therefore, we propose to randomly dropout a few leads in the input while the feature space remain unchanged. 
 
+* ``
 
 ### Semi-supervised constraints
